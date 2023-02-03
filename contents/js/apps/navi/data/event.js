@@ -1,0 +1,1 @@
+"use strict";function _classCallCheck(n,c){if(!(n instanceof c))throw new TypeError("Cannot call a class as a function")}(function(){window.HKPEvent=function(){var n=function n(){_classCallCheck(this,n)};return n.CheckboxViewClickEvent="0",n.ListItemViewClickEvent="1",n}.call(this)}).call(void 0);

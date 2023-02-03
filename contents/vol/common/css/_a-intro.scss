@@ -1,0 +1,39 @@
+.article-intro
+{
+	.title
+	{
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+}
+
+
+@media (min-width:968px)
+{
+	.article-intro
+	{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto;
+
+		.title
+		{
+			margin-top: 0;
+			// margin-bottom: 4vw;
+		}
+
+		.img-1
+		{
+			grid-column: -1;
+			grid-row: 1;
+			width: 49.4vw;
+		}
+
+		.container
+		{
+			grid-column: 1;
+			grid-row: 1;
+			width: 32.2vw;
+		}
+	}
+}

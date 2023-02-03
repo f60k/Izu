@@ -1,0 +1,1 @@
+function update(){var t=document.documentElement.scrollHeight-document.documentElement.clientHeight,n=$(this).scrollTop()/t;$(".pane .scroll .current").width(50*n)}$((function(){$(window).on("scroll",(function(){update()})),update()}));

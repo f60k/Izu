@@ -1,0 +1,1 @@
+(function(){window.View=function(){function t(t){this.tag=t}return t.prototype.tag=null,t}()}).call(this);

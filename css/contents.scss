@@ -1,0 +1,181 @@
+
+.contents
+{
+	background-color:rgba(#86CCFF, .85);
+
+	.item
+	{
+		margin-bottom: 6vw;
+		.banner
+		{
+			.cat
+			{
+				position: absolute;
+				right: 0;
+				top: 0;
+				width: 50%;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				padding-right: 2%;
+			}
+		}
+
+		.desc
+		{
+			font-size: 3.6vw;
+			line-height: 1.6;
+			margin-top: .6em;
+			font-weight: 500;
+			color: black;
+
+			br
+			{
+				display: none;
+			}
+		}
+	}
+
+	.life
+	{
+		.banner
+		{
+			.cat
+			{
+				width: 43%;
+				padding-right: 6%;
+			}
+		}
+	}
+
+	.row
+	{
+		.item
+		{
+			display: flex;
+			align-items: center;
+
+			.banner
+			{
+				// width: 50%;
+				.cat
+				{
+					width: 40%;
+					padding-right: 2%;
+				}
+			}
+			.desc
+			{
+				width: 50%;
+				padding-left: 1em;
+			}
+		}
+
+		.item:hover
+		{
+			cursor: pointer;
+		}
+
+		.item:first-child
+		{
+			margin-bottom: 10vw;
+		}
+
+		.item:last-child
+		{
+			margin-bottom: 0;
+		}
+	}
+}
+
+
+@media (min-width:968px)
+{
+
+	.contents
+	{
+
+		background-color: transparent;
+		.item
+		{
+			margin-bottom: clamp(1px, 1.1vw, 22px);
+			.banner
+			{
+				.cat
+				{
+					margin-top: clamp(-1px, -.3vw, -6px);
+					width: 48%;
+					align-items: flex-start;
+				}
+			}
+
+			.desc
+			{
+				font-size: clamp(1px, .8vw, 17px);
+				text-align: right;
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				width: 54%;
+				padding-right: .8em;
+				margin-top: 0;
+				margin-bottom: .8em;
+
+				br
+				{
+					display: block;
+				}
+			}
+		}
+
+		.life
+		{
+			.banner
+			{
+				.cat
+				{
+					width: 39%;
+				}
+			}
+		}
+
+		.row
+		{
+			.item
+			{
+				display: block;
+				.banner
+				{
+					.cat
+					{
+						align-items: center;
+						padding-bottom: clamp(1px, 1.45vw, 28px);
+						width: 34%;
+					}
+				}
+
+				.desc
+				{
+					font-size: clamp(1px, .62vw, 12px);
+				}
+
+			}
+
+			.events
+			{
+				.banner
+				{
+					.cat
+					{
+						width: 40%;
+					}
+				}
+			}
+
+			.item:first-child
+			{
+				margin-bottom: 0;
+			}
+		}
+	}
+}

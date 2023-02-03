@@ -1,0 +1,90 @@
+.pane {
+  background-color: var(--color-lightblue);
+}
+
+.main {
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.main .title-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.main h2 {
+  font-size: 7.4vw;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0.6em;
+}
+.main .desc {
+  font-size: 3.9vw;
+  font-weight: 500;
+  line-height: 1.6;
+  padding-bottom: 1em;
+}
+.main .img {
+  padding-bottom: 5vw;
+}
+.main .img:last-child {
+  padding-bottom: 20vw;
+}
+
+@media (min-width: 968px) {
+  .main {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(22, 1fr);
+    grid-template-rows: repeat(7, auto);
+    grid-row-gap: 2vw;
+    grid-column-gap: 2vw;
+    padding-left: clamp(1px, 8.3vw, 160px);
+    padding-right: clamp(1px, 3.7vw, 72px);
+  }
+  .main .text {
+    grid-column: 1/span 10;
+    grid-row: 2/span 3;
+  }
+  .main .img {
+    padding: 0;
+  }
+  .main .img:last-child {
+    padding: 0;
+  }
+  .main .img-map {
+    grid-column: 1/span 12;
+    grid-row: span 4/-1;
+    padding-left: 6%;
+    padding-bottom: 8%;
+    padding-top: 14%;
+    padding-right: 12%;
+  }
+  .main .img-03 {
+    grid-column: span 6/-1;
+    grid-row: 1/span 4;
+    align-self: end;
+  }
+  .main .img-01 {
+    grid-column: 11/span 6;
+    grid-row: 2/span 3;
+    align-self: end;
+  }
+  .main .img-02 {
+    grid-column: span 9/-2;
+    grid-row: span 3/-1;
+  }
+  .main .title-wrapper {
+    justify-content: flex-start;
+    padding-left: 1vw;
+  }
+  .main h2 {
+    font-size: clamp(1px, 2.6vw, 50px);
+    text-align: left;
+    letter-spacing: -0.01em;
+    margin-bottom: 1vw;
+  }
+  .main .desc {
+    font-size: clamp(1px, 0.93vw, 18px);
+  }
+}

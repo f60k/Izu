@@ -1,0 +1,1 @@
+(function(){window.UrlParams=function(){function n(){}return n.getVars=function(){var n,r;return r={},n=window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(n,t,i){return r[t]=i}),r},n}()}).call(this);

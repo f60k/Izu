@@ -1,0 +1,93 @@
+.pickup {
+  background-color: white;
+}
+.pickup .item .banner {
+  height: auto;
+}
+.pickup .item .banner .key-img {
+  height: 64vw;
+  overflow: hidden;
+}
+.pickup .item .banner .key-img img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.pickup .item .banner .right-pane {
+  padding: 3vw 5vw 2vw;
+}
+.pickup .item .banner .header {
+  display: flex;
+  align-items: center;
+}
+.pickup .item .banner .header .cat {
+  width: 40%;
+}
+.pickup .item .banner .title {
+  font-size: 6.1vw;
+  font-weight: 480;
+  line-height: 1.4;
+  margin-top: 0.2em;
+  color: black;
+}
+.pickup .item .banner p.desc {
+  font-size: 3.9vw;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-top: 0.4em;
+  margin-bottom: 0.2em;
+  text-align: justify;
+  color: black;
+}
+
+@media (min-width: 968px) {
+  .pickup {
+    background-color: transparent;
+    overflow: hidden;
+  }
+  .pickup .item .banner {
+    display: flex;
+    height: 100%;
+  }
+  .pickup .item .banner .key-img {
+    width: 50%;
+  }
+  .pickup .item .banner .right-pane {
+    width: 50%;
+    padding: 0;
+    padding-top: clamp(1px, 0.52vw, 10px);
+    padding-bottom: clamp(1px, 0.52vw, 10px);
+    padding-right: clamp(1px, 0.57vw, 11px);
+    padding-left: clamp(1px, 0.62vw, 12px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .pickup .item .banner .header {
+    width: 100%;
+    padding-right: clamp(1px, 0.26vw, 5px);
+    display: flex;
+    justify-content: flex-end;
+  }
+  .pickup .item .banner .header .cat {
+    width: 40%;
+  }
+  .pickup .item .banner .title {
+    position: absolute;
+    top: clamp(1px, 3.64vw, 47px);
+    right: 0;
+    line-height: 1.3;
+    font-size: clamp(1px, 1.66vw, 32px);
+    padding-right: clamp(1px, 0.5vw, 10px);
+    padding-left: 0.5em;
+    background-color: white;
+    text-align: right;
+    white-space: nowrap;
+  }
+  .pickup .item .banner p.desc {
+    font-size: clamp(1px, 0.78vw, 15px);
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+}

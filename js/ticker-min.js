@@ -1,0 +1,1 @@
+$((function(){$(".scrolling-words-box").slick({autoplay:!0,vertical:!0,verticalSwiping:!0,arrows:!1})}));

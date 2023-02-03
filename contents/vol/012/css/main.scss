@@ -1,0 +1,104 @@
+@use "../../common/css/global";
+@use "../../common/css/cover";
+@use "../../common/css/a-voice";
+@use "../../common/css/a-intro";
+@use "../../common/css/a-video";
+@use "../../common/css/a-midashi";
+@use "../../common/css/a-infomation";
+@use "../../common/css/a-close";
+@use "../../common/css/a-01";
+@use "../../common/css/a-profile";
+
+.article-voice
+{
+	.img-1
+	{
+		background-position: center center;
+		background-size: contain;
+	}
+
+	.voice
+	{
+		top: 60%;
+	}
+}
+
+
+
+
+@media (min-width:968px)
+{
+	.article-01
+	{
+		.grid-2col
+		{
+			margin-right: -7.6vw;
+			.contents
+			{
+				grid-column: 1;
+				width: 38vw;
+			}
+			.img-1
+			{
+				grid-column: 2;
+				width: 50vw;
+
+				grid-template-columns: 1fr;
+				grid-template-rows: auto;
+
+			}
+		}
+	}
+
+	.article-close
+	{
+		.grid-2col
+		{
+			grid-template-columns: 1fr 1fr;
+
+			.contents
+			{
+				grid-column: 2;
+				grid-row: 1;
+				width: auto;
+				// justify-self: end;
+				.title-set
+				{
+					width: 30vw;
+					justify-self: end;
+				}
+				justify-self: end;
+			}
+
+			.img-set
+			{
+				grid-column: 1;
+				grid-row: 1;
+
+				.img-1
+				{
+					// margin-left: -7.6vw;
+					width: 110%;
+				}
+				.img-2
+				{
+					margin-top: -4vw;
+					margin-right: -10vw;
+					width: 70%;
+				}
+			}
+		}
+
+		.grid-2-2
+		{
+			display: block;
+		}
+
+
+
+		.g-map
+		{
+			width: auto!important;
+		}
+	}
+}
