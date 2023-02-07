@@ -103,6 +103,9 @@ body {
 .main .item .cat-yellow:before {
   background-color: var(--color-cat-yellow);
 }
+.main .item .cat-blue:before {
+  background-color: var(--color-blue);
+}
 .main .item .date {
   font-weight: 500;
   color: black;
@@ -204,5 +207,75 @@ body {
     padding-right: 1em;
     font-size: clamp(10px, 0.78vw, 15px);
     line-height: 1.67;
+  }
+}
+.sns-station {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  height: 126vw;
+  border: 1px solid #000;
+}
+.sns-station .head {
+  display: grid;
+  grid-template-columns: 3fr 5fr;
+  grid-template-rows: auto;
+  grid-column-gap: 2%;
+}
+.sns-station .head > * {
+  align-self: center;
+}
+.sns-station .head .icon {
+  grid-column: 1;
+  grid-row: 1;
+  padding: 0.8em;
+}
+.sns-station .head .sns-title {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 5vw;
+  font-weight: bold;
+}
+.sns-station .contents {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  padding-bottom: 6vw;
+}
+.sns-station .contents .desc {
+  padding: 0.8em;
+  min-height: 6.8em;
+}
+.sns-station .contents .sns-icons {
+  align-self: end;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  height: 3.4vw;
+  padding-top: 0;
+  padding-bottom: 1em;
+}
+.sns-station .contents .sns-icons > div {
+  width: 12vw;
+  padding: 0.6em;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 968px) {
+  .sns-station {
+    height: auto;
+  }
+  .sns-station .head .sns-title {
+    font-size: clamp(1px, 0.9vw, 20px);
+  }
+  .sns-station .contents {
+    padding-bottom: 0;
+  }
+  .sns-station .contents .sns-icons {
+    height: 2vw;
+  }
+  .sns-station .contents .sns-icons > div {
+    width: 15%;
   }
 }

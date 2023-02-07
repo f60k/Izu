@@ -5,9 +5,16 @@
 	padding-top: 0!important;;
 	padding-bottom: 0!important;;
 
+	.container
+	{
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+
 	figure
 	{
 		position: relative;
+
 	}
 
 	.play-icon
@@ -21,13 +28,21 @@
 
 	a:hover
 	{
-
+		
+		.video
+		{
+			filter:brightness(.8);
+			// transform: scale(1.01);
+			// filter:;
+		}
 		.play-icon
 		{
-			opacity: .5;
+			// opacity: .5;
 		}
 	}
 }
+
+
 
 
 @media (min-width:968px)

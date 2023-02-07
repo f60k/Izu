@@ -324,6 +324,10 @@ body {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
+.article-video .container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
 .article-video figure {
   position: relative;
 }
@@ -334,10 +338,9 @@ body {
   width: 30vw;
   height: 30vw;
 }
-.article-video a:hover .play-icon {
-  opacity: 0.5;
+.article-video a:hover .video {
+  filter: brightness(0.8);
 }
-
 @media (min-width: 968px) {
   .article-video {
     padding-left: 15vw !important;
