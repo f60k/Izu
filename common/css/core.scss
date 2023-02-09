@@ -7,6 +7,7 @@
 	--color-gray:#707070;
 	--color-second-bg:#F4EFE9;
 	--color-green:#4EBA56;
+	--color-lightgreen:#9BE2B6;
 	--color-cat-yellow:#FFD10F;
 	--color-lightblue:#E3F3FF;
 	--color-darkblue:#3FA3D5;
@@ -197,3 +198,23 @@ a:hover
 		font-size: clamp(1px, .98vw, 19px);
 	}
 }
+
+
+.sp-only
+{
+	display: block;
+}
+
+@media (min-width:968px)
+{
+	.sp-only
+	{
+		display: none;
+	}
+}
+
+
+
+
+
+

@@ -95,7 +95,16 @@ indexLeaveEvent = (index, nextIndex, direction) ->
 	# 	# 	$('.section').eq(index -1).removeClass('move-up').addClass('move-down')
 
 
+
+
+
+
+		
+
+
+
 $ ->
+	
 	# myFullpage = new fullpage('#fullpage', {
 	$('#fullpage').fullpage({
 
@@ -118,6 +127,21 @@ $ ->
 		# 	console.log section
 
 		});
+
+
+	nav = $('#fp-nav')
+	$('<span class="arrow next material-symbols-outlined">keyboard_arrow_down</span>').appendTo(nav)
+	$('<span class="arrow prev material-symbols-outlined">expand_less</span>').prependTo(nav)
+
+	$('#fp-nav .prev').click ->
+		$.fn.fullpage.moveSectionUp()
+
+	$('#fp-nav .next').click ->
+		$.fn.fullpage.moveSectionDown()
+
+
+
+
 
 	# $('.section .title').attr(  'transition-style', "in:wipe:right")
 	# $('.title-wrapper').attr(  'transition-style', "in:wipe:right")
