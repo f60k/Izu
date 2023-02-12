@@ -7,6 +7,8 @@
   color: white;
   padding: 10vw 0 10vw;
 
+
+
   .site {
     width: 40vw;
     margin-bottom: 12vw;
@@ -19,6 +21,10 @@
   .info {
     font-size: 3vw;
     margin-bottom: 8vw;
+
+    .icons {
+      display: none;
+    }
   }
 
   .icons {
@@ -47,6 +53,8 @@
   .footer {
     padding: clamp(1px, 1vw, 20px);
 
+
+
     .site {
       width: clamp(1px, 12.9vw, 248px);
       margin-bottom: clamp(1px, .52vw, 10px);
@@ -67,6 +75,20 @@
 
       br.sp {
         display: none;
+      }
+
+
+      .icons {
+        display: block;
+
+        ul {
+          justify-content: flex-start;
+          gap: 1vw;
+        }
+
+        li {
+          font-size: 1.6vw;
+        }
       }
 
     }
