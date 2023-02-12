@@ -28,7 +28,7 @@ body {
   margin-bottom: 6vw;
 
   background-image: url(../images/teaser/map.jpg);
-  background-repeat:  no-repeat;
+  background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
 
@@ -69,6 +69,14 @@ body {
     font-weight: bold;
     line-height: 1.6
   }
+
+  a {
+    transition: all .6s ease-in-out;
+  }
+
+  a:hover {
+    filter: brightness(.8);
+  }
 }
 
 @media (min-width:968px) {
@@ -89,8 +97,7 @@ body {
       margin-top: 4vw;
     }
 
-    p
-    {
+    p {
       font-size: clamp(1px, 1.2vw, 24px);
     }
 
@@ -106,20 +113,22 @@ body {
     padding-bottom: 6vw;
     width: 40vw;
 
-    img
-    {
+    img {
       padding-bottom: 1em;
     }
 
-    p
-    {
+    p {
       font-size: clamp(1px, 1.2vw, 20px);
     }
   }
 
+  .footer {
+    .info {
+      .icons {
+        display: block;
+      }
+    }
 
+  }
 
 }
-
-
-

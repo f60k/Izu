@@ -552,6 +552,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/common\/images\/logo\/logo-w-copy.png" : {
+      "ft" : 32768,
+      "iS" : 90354,
+      "oA" : 0,
+      "oAP" : "\/common\/images\/logo\/logo-w-copy.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/common\/images\/logo\/logo.png" : {
       "ft" : 32768,
       "iS" : 76386,
@@ -5242,6 +5255,18 @@
       "oS" : 3,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/css\/teaser.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/teaser-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/css\/teaser.scss" : {
       "aP" : 0,
