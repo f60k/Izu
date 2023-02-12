@@ -1,103 +1,87 @@
+@media (min-width:968px) {
+  header.header {
+    width: 100%;
+
+    height: 50px;
+    padding: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    right: 0;
 
 
-@media (min-width:968px)
-{
-	header.header
-	{
-		width: 100%;
-
-		height: 50px;
-		padding: 0;
-		padding-left: 40px;
-		padding-right: 40px;
-		right: 0;
-
-
-		.site
-		{
-			width: 133px;
-			margin-left: 0;
-		}
+    .site {
+      width: 133px;
+      margin-left: 0;
+    }
 
 
 
-		.icons
-		{
-			a
-			{
-				font-size: 20px;
-			}
-		}
+    .icons {
+      a {
+        font-size: 20px;
+      }
+    }
 
-		.nav
-		{
-			margin-left: auto;
-			margin-right: 1em;
+    .nav {
+      margin-left: auto;
+      margin-right: 1em;
 
-			li
-			{
-				padding-left: 4px;
+      li {
+        padding-left: 4px;
 
-				a
-				{
-					font-weight: 500;
-					font-size: 18px;
-				}
+        a {
+          font-weight: 500;
+          font-size: 18px;
+        }
 
-			}
+      }
 
-			li::before
-			{
-				content: '／';
-				padding-right: 4px;
-				font-size: 20px;
-				font-weight: 200;
-			}
+      li::before {
+        content: '／';
+        padding-right: 4px;
+        font-size: 20px;
+        font-weight: 200;
+      }
 
 
 
-		}
+    }
 
-		.icons
-		{
-			li
-			{
-				padding-left: 10px;
-			}
-			img
-			{
-				width: 24px;
-			}
-			padding-right: 6px;
-		}
+    .icons {
+      li {
+        padding-left: 10px;
+      }
 
-	}
+      img {
+        width: 24px;
+      }
 
-	.footer
-	{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: row;
-		height: 330px;
+      padding-right: 6px;
+    }
 
-		gap:clamp(1px, 3.4vw, 67px);
+  }
 
-		.site
-		{
-			width: clamp(360px, 24.2vw, 470px);
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 330px;
 
-			.lead
-			{
-				font-size: clamp(13px, .8vw, 17px);
-			}
-		}
+    gap: clamp(1px, 3.4vw, 67px);
 
-		.info
-		{
-			font-size: clamp(13px, .8vw, 17px);
-			text-align: left;
-			line-height: 1.76;
-		}
-	}
+    .site {
+      width: clamp(360px, 24.2vw, 470px);
+
+      .lead {
+        font-size: clamp(13px, .8vw, 17px);
+      }
+    }
+
+    .info {
+      font-size: clamp(13px, .8vw, 17px);
+      text-align: left;
+      line-height: 1.76;
+    }
+  }
 }

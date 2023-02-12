@@ -8,3 +8,17 @@
 @use "../../common/css/a-close";
 @use "../../common/css/a-01";
 
+@media (min-width:968px) {
+  .article-intro {
+    grid-column-gap: 0;
+
+    .container {
+      width: 40vw;
+    }
+
+    .img-1 {
+      width: 40vw;
+      margin: 0;
+    }
+  }
+}

@@ -1,128 +1,111 @@
-
-.sns-item
-{
-    border: 1px solid black;
+.sns-item {
+  border: 1px solid black;
 }
 
 
 
-.sns-station
-{
+.sns-station {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto;
+  // height: 126vw;
+  // border: 1px solid #000;
+
+
+  .head {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-template-rows: auto;
+    grid-column-gap: 2%;
+    // padding: 2%;
+
+    >* {
+      align-self: center;
+    }
+
+    .icon {
+      grid-column: 1;
+      grid-row: 1;
+      padding: .8em;
+    }
+
+    .sns-title {
+      grid-column: 2;
+      grid-row: 1;
+      font-size: 5vw;
+      font-weight: bold;
+
+    }
+  }
+
+  .contents {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto;
-    // height: 126vw;
-    // border: 1px solid #000;
+    grid-template-rows: auto auto;
+    padding-bottom: 6vw;
 
-
-    .head
-    {
-        display: grid;
-        grid-template-columns: 3fr 5fr;
-        grid-template-rows: auto;
-        grid-column-gap: 2%;
-        // padding: 2%;
-
-        >*
-        {
-            align-self: center;
-        }
-
-        .icon
-        {
-            grid-column: 1;
-            grid-row: 1;
-            padding: .8em;
-        }
-
-        .sns-title
-        {
-            grid-column: 2;
-            grid-row: 1;
-            font-size: 5vw;
-            font-weight: bold;
-
-        }
+    .desc {
+      padding: 0.8em;
+      min-height: 6.8em;
+      // background-color: yellow;
     }
 
-    .contents
-    {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto;
-        padding-bottom: 6vw;
-        .desc
-        {
-            padding: 0.8em;
-            min-height: 6.8em;
-            // background-color: yellow;
-        }
-        .sns-icons
-        {
-            align-self: end;
-            display: flex;
-            justify-content: center;
-            align-content: flex-end;
-            // padding-bottom: 4em;
-            // min-height: 5em;
-            height: 3.4vw;
-            padding-top:0;
-            padding-bottom: 1em;
-            // background-color: red;
-            >div
-            {
-                width: 12vw;
-                padding: .6em;
-                // height: 3.1vw;
-                display: flex;
-                align-items: center;
-            }
-        }
+    .sns-icons {
+      align-self: end;
+      display: flex;
+      justify-content: center;
+      align-content: flex-end;
+      // padding-bottom: 4em;
+      // min-height: 5em;
+      height: 3.4vw;
+      padding-top: 0;
+      padding-bottom: 1em;
+
+      // background-color: red;
+      >div {
+        width: 12vw;
+        padding: .6em;
+        // height: 3.1vw;
+        display: flex;
+        align-items: center;
+      }
     }
+  }
 }
 
 
 
 
-@media (min-width:968px)
-{
+@media (min-width:968px) {
 
-    .sns-station
-    {
+  .sns-station {
 
-        .head
-        {
-            .sns-title
-            {
-                font-size: clamp(1px, .9vw, 20px);
-            }
-        }
-
-        .contents
-        {
-            padding-bottom: revert!important;
-            // margin-bottom: 100%;
-            .desc
-            {
-                padding-top: .8em;
-                // padding-bottom: 100%;
-                padding-left: 1em;
-                padding-right: 1em;
-                font-size: clamp(10px, .78vw, 15px);
-                line-height: 1.67;
-
-            }
-            .sns-icons
-            {
-
-                >div
-                {
-                    width: 15%;
-                }
-            }
-        }
+    .head {
+      .sns-title {
+        font-size: clamp(1px, .9vw, 20px);
+      }
     }
+
+    .contents {
+      padding-bottom: revert !important;
+
+      // margin-bottom: 100%;
+      .desc {
+        padding-top: .8em;
+        // padding-bottom: 100%;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: clamp(10px, .78vw, 15px);
+        line-height: 1.67;
+
+      }
+
+      .sns-icons {
+
+        >div {
+          width: 15%;
+        }
+      }
+    }
+  }
 }
-
-
-

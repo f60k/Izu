@@ -9,96 +9,100 @@
 @use "../../common/css/a-01";
 @use "../../common/css/a-profile";
 
-.article-voice
-{
-	.img-1
-	{
-		background-position: center center;
-		background-size: contain;
-	}
 
-	.voice
-	{
-		top: 60%;
-	}
+@media (min-width:968px) {
+  .article-intro {
+    grid-column-gap: 0;
+
+    .container {
+      width: 40vw;
+    }
+
+    .img-1 {
+      width: 40vw;
+      margin: 0;
+    }
+  }
+}
+
+.article-voice {
+  .img-1 {
+    background-position: center center;
+    background-size: contain;
+  }
+
+  .voice {
+    top: 60%;
+  }
 }
 
 
 
 
-@media (min-width:968px)
-{
-	.article-01
-	{
-		.grid-2col
-		{
-			margin-right: -7.6vw;
-			.contents
-			{
-				grid-column: 1;
-				width: 38vw;
-			}
-			.img-1
-			{
-				grid-column: 2;
-				width: 50vw;
+@media (min-width:968px) {
+  .article-01 {
+    .grid-2col {
+      margin-right: -7.6vw;
 
-				grid-template-columns: 1fr;
-				grid-template-rows: auto;
+      .contents {
+        grid-column: 1;
+        width: 38vw;
+      }
 
-			}
-		}
-	}
+      .img-1 {
+        grid-column: 2;
+        width: 50vw;
 
-	.article-close
-	{
-		.grid-2col
-		{
-			grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
 
-			.contents
-			{
-				grid-column: 2;
-				grid-row: 1;
-				width: auto;
-				// justify-self: end;
-				.title-set
-				{
-					width: 30vw;
-					justify-self: end;
-				}
-				justify-self: end;
-			}
+      }
+    }
+  }
 
-			.img-set
-			{
-				grid-column: 1;
-				grid-row: 1;
+  .article-close {
+    .grid-2col {
+      grid-template-columns: 1fr 1fr;
 
-				.img-1
-				{
-					// margin-left: -7.6vw;
-					width: 110%;
-				}
-				.img-2
-				{
-					margin-top: -4vw;
-					margin-right: -10vw;
-					width: 70%;
-				}
-			}
-		}
+      .contents {
+        grid-column: 2;
+        grid-row: 1;
+        width: auto;
 
-		.grid-2-2
-		{
-			display: block;
-		}
+        // justify-self: end;
+        .title-set {
+          width: 30vw;
+          justify-self: end;
+        }
+
+        justify-self: end;
+      }
+
+      .img-set {
+        grid-column: 1;
+        grid-row: 1;
+
+        .img-1 {
+          // margin-left: -7.6vw;
+          width: 110%;
+        }
+
+        .img-2 {
+          margin-top: -4vw;
+          margin-right: -10vw;
+          width: 70%;
+        }
+      }
+    }
+
+    .grid-2-2 {
+      display: block;
+    }
 
 
 
-		.g-map
-		{
-			width: auto!important;
-		}
-	}
+    .g-map {
+      width: auto !important;
+    }
+  }
 }

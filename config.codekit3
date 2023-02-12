@@ -32,7 +32,7 @@
       "oA" : 0,
       "oAP" : "\/about\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -99,7 +99,7 @@
     "\/about\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/about\/index.html",
       "oF" : 0
@@ -128,7 +128,7 @@
     "\/common\/basic-css.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 1,
       "oAP" : "\/common\/basic-css.html",
       "oF" : 0
@@ -172,7 +172,7 @@
       "oA" : 0,
       "oAP" : "\/common\/css\/core.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -199,7 +199,7 @@
       "oA" : 0,
       "oAP" : "\/common\/css\/footer.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -226,7 +226,7 @@
       "oA" : 0,
       "oAP" : "\/common\/css\/header.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -277,22 +277,30 @@
       "oA" : 0,
       "oAP" : "\/common\/css\/second.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
     "\/common\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 1,
       "oAP" : "\/common\/footer.html",
+      "oF" : 0
+    },
+    "\/common\/g-tag.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 1,
+      "oA" : 1,
+      "oAP" : "\/common\/g-tag.html",
       "oF" : 0
     },
     "\/common\/header.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 1,
       "oAP" : "\/common\/header.html",
       "oF" : 0
@@ -560,7 +568,7 @@
     "\/common\/inc.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 1,
       "oAP" : "\/common\/inc.html",
       "oF" : 0
@@ -598,7 +606,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/css\/_header-footer.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -613,7 +621,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/css\/_list.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -628,7 +636,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/css\/_sns-station.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -655,7 +663,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -1112,7 +1120,7 @@
     "\/contents\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/index.html",
       "oF" : 0
@@ -1434,7 +1442,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/vol\/camp\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -1618,7 +1626,7 @@
     "\/contents\/vol\/camp\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/camp\/index.html",
       "oF" : 0
@@ -1677,7 +1685,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/vol\/common\/css\/_a-01.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -1692,7 +1700,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/vol\/common\/css\/_a-close.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -1707,7 +1715,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/vol\/common\/css\/_a-infomation.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -1722,7 +1730,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/vol\/common\/css\/_a-intro.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -1737,7 +1745,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/vol\/common\/css\/_a-midashi.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -1752,7 +1760,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/vol\/common\/css\/_a-profile.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -1767,7 +1775,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/vol\/common\/css\/_a-video.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -1782,7 +1790,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/vol\/common\/css\/_a-voice.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -1797,7 +1805,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/vol\/common\/css\/_cover.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -1812,7 +1820,7 @@
       "oA" : 1,
       "oAP" : "\/contents\/vol\/common\/css\/_global.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -1840,7 +1848,7 @@
     "\/contents\/vol\/common\/inc.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 1,
       "oAP" : "\/contents\/vol\/common\/inc.html",
       "oF" : 0
@@ -1889,7 +1897,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/vol\/drone\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -2047,7 +2055,7 @@
     "\/contents\/vol\/drone\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/drone\/index.html",
       "oF" : 0
@@ -2118,7 +2126,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/vol\/hinadecoration\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -2289,7 +2297,7 @@
     "\/contents\/vol\/hinadecoration\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/hinadecoration\/index.html",
       "oF" : 0
@@ -2360,7 +2368,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/vol\/horseriding\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -2531,7 +2539,7 @@
     "\/contents\/vol\/horseriding\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/horseriding\/index.html",
       "oF" : 0
@@ -2602,7 +2610,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/vol\/openairbath\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -2721,7 +2729,7 @@
     "\/contents\/vol\/openairbath\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/openairbath\/index.html",
       "oF" : 0
@@ -2792,7 +2800,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/vol\/orangepicking\/css\/main.css",
       "oF" : 1,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -2963,7 +2971,7 @@
     "\/contents\/vol\/orangepicking\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/orangepicking\/index.html",
       "oF" : 0
@@ -3034,7 +3042,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/vol\/outdooryoga\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -3231,7 +3239,7 @@
     "\/contents\/vol\/outdooryoga\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/outdooryoga\/index.html",
       "oF" : 0
@@ -3302,7 +3310,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/vol\/paragliding\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -3473,7 +3481,7 @@
     "\/contents\/vol\/paragliding\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/paragliding\/index.html",
       "oF" : 0
@@ -3544,7 +3552,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/vol\/plantation\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -3702,7 +3710,7 @@
     "\/contents\/vol\/plantation\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/plantation\/index.html",
       "oF" : 0
@@ -3773,7 +3781,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/vol\/scubadiving\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4061,7 +4069,7 @@
     "\/contents\/vol\/scubadiving\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/scubadiving\/index.html",
       "oF" : 0
@@ -4132,7 +4140,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/vol\/trailrun\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4277,7 +4285,7 @@
     "\/contents\/vol\/trailrun\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/trailrun\/index.html",
       "oF" : 0
@@ -4348,7 +4356,7 @@
       "oA" : 0,
       "oAP" : "\/contents\/vol\/workation\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4506,7 +4514,7 @@
     "\/contents\/vol\/workation\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/workation\/index.html",
       "oF" : 0
@@ -4577,7 +4585,7 @@
       "oA" : 0,
       "oAP" : "\/css\/contents.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4604,7 +4612,7 @@
       "oA" : 0,
       "oAP" : "\/css\/hero.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4619,7 +4627,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/_base.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4646,7 +4654,7 @@
       "oA" : 0,
       "oAP" : "\/css\/lib\/hamburgers.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4673,7 +4681,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_3dx-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4688,7 +4696,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_3dx.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4703,7 +4711,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_3dxy-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4718,7 +4726,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_3dxy.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4733,7 +4741,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_3dy-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4748,7 +4756,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_3dy.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4763,7 +4771,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_arrow-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4778,7 +4786,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_arrow.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4793,7 +4801,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_arrowalt-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4808,7 +4816,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_arrowalt.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4823,7 +4831,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_arrowturn-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4838,7 +4846,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_arrowturn.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4853,7 +4861,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_boring.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4868,7 +4876,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_collapse-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4883,7 +4891,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_collapse.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4898,7 +4906,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_elastic-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4913,7 +4921,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_elastic.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4928,7 +4936,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_emphatic-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4943,7 +4951,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_emphatic.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4958,7 +4966,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_minus.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4973,7 +4981,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_slider-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -4988,7 +4996,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_slider.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5003,7 +5011,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_spin-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5018,7 +5026,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_spin.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5033,7 +5041,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_spring-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5048,7 +5056,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_spring.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5063,7 +5071,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_squeeze.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5078,7 +5086,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_stand-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5093,7 +5101,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_stand.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5108,7 +5116,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_vortex-r.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5123,7 +5131,7 @@
       "oA" : 1,
       "oAP" : "\/css\/lib\/types\/_vortex.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5150,7 +5158,7 @@
       "oA" : 0,
       "oAP" : "\/css\/main.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5177,7 +5185,7 @@
       "oA" : 0,
       "oAP" : "\/css\/news.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5204,7 +5212,7 @@
       "oA" : 0,
       "oAP" : "\/css\/pickup.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5231,7 +5239,7 @@
       "oA" : 0,
       "oAP" : "\/css\/scroll-indicator.css",
       "oF" : 0,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 0
     },
@@ -5384,7 +5392,7 @@
     "\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
-      "hM" : 0,
+      "hM" : 1,
       "oA" : 0,
       "oAP" : "\/index.html",
       "oF" : 0
@@ -6826,7 +6834,7 @@
       "autoOutputPathReplace1" : "kit",
       "autoOutputPathReplace2" : "html",
       "autoOutputPathStyle" : 0,
-      "htmlMinifierStyle" : 0,
+      "htmlMinifierStyle" : 1,
       "shouldRunCacheBuster" : 0
     },
     "languageDefaultsLESS" : {
@@ -6915,7 +6923,7 @@
       "cssoStyle" : 0,
       "decimalPrecision" : 10,
       "emitCharset" : 1,
-      "outputStyle" : 0,
+      "outputStyle" : 3,
       "purgeCSSStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
