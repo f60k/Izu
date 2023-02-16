@@ -42,57 +42,57 @@ indexLeaveEvent = (index, nextIndex, direction) ->
 	# if index > 0
 	# console.log index
 
-	# if direction == 'down'
-	# 	# $('.section').eq(index-1).removeClass('move-down').addClass('move-up')
-	# 	obj = $('.section').eq(index)
+	if direction == 'down'
+		# $('.section').eq(index-1).removeClass('move-down').addClass('move-up')
+		obj = $('.section').eq(index)
 
-	# 	if obj.find('div.transform-bg').length < 1
+		if obj.find('div.transform-bg').length < 1
 
-	# 		if obj.find('.bg01').length > 0
-	# 			obj.find('.contents .title').addClass('anim-delay-1s')
-	# 			obj.find('p').addClass('anim-delay-1s')
-	# 			obj.find('img').addClass('anim-delay-1s')
+			if obj.find('.bg01').length > 0
+				obj.find('.contents .title').addClass('anim-delay-1s')
+				obj.find('p').addClass('anim-delay-1s')
+				obj.find('img').addClass('anim-delay-1s')
 
-	# 		obj.find('div.transform-bg').attr(  'transition-style', "in:wipe:right")
-	# 		obj.find('.bg01').attr(  'transition-style', "in:wipe:right")
-	# 		obj.find('.contents .title').attr(  'transition-style', "in:wipe:right")
-	# 		obj.find('p').attr(  'transition-style', "in:wipe:right")
-	# 		obj.find('img').attr(  'transition-style', "in:wipe:right")
-	# 	else
-
-
-	# 		if !obj.find('div.transform-bg').hasClass('transform-bg-opposite')
-	# 			obj.find('div.transform-bg').attr(  'transition-style', "in:wipe:left")
-	# 			obj.find('.bg01').attr(  'transition-style', "in:wipe:left")
-	# 			# obj.find('.contents .title').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:left")
-	# 			obj.find('.info').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:left")
-	# 			obj.find('p').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:left")
-	# 			obj.find('img').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:left")
-
-	# 			if obj.find('.contents .title').hasClass('title-rect-naname')
-	# 				# obj.find('.contents .title').removeAttr(  'transition-style')
-	# 				obj.find('.contents .anime-wrapper').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:left")
-	# 			else
-	# 				obj.find('.contents .title').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:left")
-	# 		else
-	# 			obj.find('div.transform-bg').attr(  'transition-style', "in:wipe:right")
-	# 			obj.find('.bg01').attr(  'transition-style', "in:wipe:right")
-	# 			# obj.find('.contents .title').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:right")
-	# 			obj.find('.info').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:right")
-	# 			obj.find('p').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:right")
-	# 			obj.find('img').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:right")
-
-	# 			if obj.find('.contents .title').hasClass('title-rect-naname')
-	# 				# obj.find('.contents .title').removeAttr(  'transition-style')
-	# 				obj.find('.contents .anime-wrapper').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:right")
-	# 			else
-	# 				obj.find('.contents .title').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:right")
+			obj.find('div.transform-bg').attr(  'transition-style', "in:wipe:right")
+			obj.find('.bg01').attr(  'transition-style', "in:wipe:right")
+			obj.find('.contents .title').attr(  'transition-style', "in:wipe:right")
+			obj.find('p').attr(  'transition-style', "in:wipe:right")
+			obj.find('img').attr(  'transition-style', "in:wipe:right")
+		else
 
 
-	# 	obj.find('.site *').removeAttr(  'transition-style')
+			if !obj.find('div.transform-bg').hasClass('transform-bg-opposite')
+				obj.find('div.transform-bg').attr(  'transition-style', "in:wipe:left")
+				obj.find('.bg01').attr(  'transition-style', "in:wipe:left")
+				# obj.find('.contents .title').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:left")
+				obj.find('.info').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:left")
+				obj.find('p').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:left")
+				obj.find('img').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:left")
 
-	# 	# else if direction == 'up'
-	# 	# 	$('.section').eq(index -1).removeClass('move-up').addClass('move-down')
+				if obj.find('.contents .title').hasClass('title-rect-naname')
+					# obj.find('.contents .title').removeAttr(  'transition-style')
+					obj.find('.contents .anime-wrapper').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:left")
+				else
+					obj.find('.contents .title').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:left")
+			else
+				obj.find('div.transform-bg').attr(  'transition-style', "in:wipe:right")
+				obj.find('.bg01').attr(  'transition-style', "in:wipe:right")
+				# obj.find('.contents .title').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:right")
+				obj.find('.info').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:right")
+				obj.find('p').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:right")
+				obj.find('img').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:right")
+
+				if obj.find('.contents .title').hasClass('title-rect-naname')
+					# obj.find('.contents .title').removeAttr(  'transition-style')
+					obj.find('.contents .anime-wrapper').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:right")
+				else
+					obj.find('.contents .title').addClass('anim-delay-1s').attr(  'transition-style', "in:wipe:right")
+
+
+		obj.find('.site *').removeAttr(  'transition-style')
+
+		# else if direction == 'up'
+		# 	$('.section').eq(index -1).removeClass('move-up').addClass('move-down')
 
 
 

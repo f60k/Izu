@@ -7072,7 +7072,7 @@
     "npmSaveExactVersion" : 0,
     "npmTargetDependencyListType" : 1,
     "overrideExternalServerCSS" : 0,
-    "previewPathAddition" : "index-t.html",
+    "previewPathAddition" : "\/contents\/",
     "purgeCSS" : {
       "blocklistEntries" : [
 
