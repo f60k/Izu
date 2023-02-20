@@ -52,7 +52,7 @@
 
     .container {
       display: grid;
-      grid-template-columns: 2fr 1fr;
+      grid-template-columns: 5fr 2fr;
       grid-template-rows: auto auto;
     }
 
@@ -61,11 +61,14 @@
       grid-row: 1;
       // margin-left: -3vw;
       // margin-bottom: -4vw;
+      justify-self: end;
       z-index: 2;
 
-      width: 90%;
+      width: 150%;
+      height: auto;
       background-position: center center;
-      margin-left: -2.9vw;
+      margin-right: -7.6vw;
+      // margin-right: 0;
       aspect-ratio: 16/9;
     }
 
@@ -76,6 +79,7 @@
       margin-top: -10vw;
 
       width: 120%;
+      height: auto;
       background-position: center center;
       margin-left: -7.6vw;
       aspect-ratio: 16/9;
