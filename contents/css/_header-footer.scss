@@ -16,14 +16,22 @@
 
     li {
       cursor: pointer;
+      opacity: .7;
+
+      img
+      {
+        user-select: none;
+      }
     }
 
+
     li:hover {
-      transform: scale(1.1);
+      transform: scale(1.2);
     }
 
     .selected {
-      transform: scale(1.1);
+      transform: scale(1.2);
+      opacity: 1;
     }
 
 
@@ -62,7 +70,8 @@
       // gap:6%;
 
       .all {
-        width: 211px;
+        padding-top: 12px;
+        width: 126px;
       }
 
       .activity {

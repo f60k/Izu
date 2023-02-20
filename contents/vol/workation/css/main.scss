@@ -54,29 +54,33 @@
   .article-info {
     .grid-2col {
 
+      // grid-column-gap: 0;
+
       // margin-top: -4vw;
       .contents {
         width: 50vw;
       }
 
       .img-set {
-        margin-top: -6vw;
+        // margin-top: -2vw;
+        // margin-bottom: 0vw;
 
         .img-1 {
+          width: 100%;
           margin-right: -7.6vw;
         }
 
         .img-2 {
           margin: 0;
           margin-left: 7.6vw;
-          margin-top: 2vw;
+          margin-top: 4vw;
           width: 80%;
         }
       }
     }
 
     .info {
-      margin-top: -22.4vw;
+      margin-top: -23.4vw;
       width: 50vw;
 
       .grid-2-2 {
