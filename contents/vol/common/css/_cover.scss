@@ -1,10 +1,13 @@
 #fullpage {
   .section {
     .cover-inner {
+
       width: 100%;
       height: 100%;
 
       padding-top: 60vh;
+
+      transition: all .3s linear;
 
       background-image: url(../images/main-sp.jpg);
       background-repeat: no-repeat;
@@ -54,12 +57,20 @@
         font-size: 5.4vw;
         text-align: right;
         font-weight: bold;
+
+        display: none;
       }
 
       .lead {
         font-size: 7.7vw;
         text-align: right;
         font-weight: bold;
+
+        display: none;
+      }
+
+      img {
+        display: none;
       }
     }
   }
