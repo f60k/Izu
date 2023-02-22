@@ -11,11 +11,20 @@ pageActiveEvent = (anchorLink, index) ->
 		obj.find('img').addClass(delay).css({'display':'block'}).attr('transition-style', wipeDir)
 
 		$('body').removeClass('is_blur')
+		$('.back-to-top').css({display:'flex'})
 
 
 indexLeaveEvent = (index, nextIndex, direction) ->
 	leavingSection = this
 	$(this).removeClass('is-done')
+
+	console.log nextIndex
+
+
+	if nextIndex >1
+		$('.back-to-top').removeClass('back-to-top-outside')
+	else
+		$('.back-to-top').addClass('back-to-top-outside')
 
 
 	if direction == 'down'
@@ -55,10 +64,15 @@ indexLeaveEvent = (index, nextIndex, direction) ->
 
 
 
+
+
 $ ->
 
 	$('body').addClass('is_blur')
 
+	$('<div class="back-to-top back-to-top-outside"><span class="arrow material-symbols-outlined">expand_less</span></div>').appendTo($('body'))
+	$('.back-to-top').click ->
+		$.fn.fullpage.moveTo(1)
 
 	$('#fullpage').fullpage({
 		scrollOverflow: true,

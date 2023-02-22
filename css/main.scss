@@ -45,6 +45,7 @@
   }
 }
 
+
 .main {
   width: 100%;
 
@@ -81,6 +82,22 @@
     .desc {
       font-size: .6em;
       padding-left: .5em;
+    }
+
+    .row {
+      .item {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        // padding: 0;
+        box-shadow: .5vw .5vw 0 black;
+        margin-bottom: 4vw;
+
+        .banner {
+          width: auto;
+          height: auto;
+        }
+      }
     }
   }
 
@@ -158,7 +175,7 @@
   }
 
   .main {
-    
+
     padding-top: clamp(1px, 2vw, 40px);
     padding-bottom: clamp(1px, 1vw, 20px);
     overflow: hidden;
@@ -182,6 +199,21 @@
     .about,
     .links {
       background-color: transparent;
+    }
+
+    .links
+    {
+      .row
+      {
+        // margin-top: 2vw;
+        gap:2vw;
+        .item
+        {
+          width: 100%;
+          height: auto;
+
+        }
+      }
     }
 
     .about {

@@ -4944,6 +4944,32 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/images\/top\/items\/pr-izu.png" : {
+      "ft" : 32768,
+      "iS" : 74518,
+      "oA" : 0,
+      "oAP" : "\/images\/top\/items\/pr-izu.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/images\/top\/items\/pr-spa.png" : {
+      "ft" : 32768,
+      "iS" : 216286,
+      "oA" : 0,
+      "oAP" : "\/images\/top\/items\/pr-spa.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/images\/top\/items\/sns-station.jpg" : {
       "ft" : 16384,
       "iS" : 60512,
@@ -5053,6 +5079,14 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/media\/higashi-izu-support-book.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/media\/higashi-izu-support-book.pdf",
+      "oF" : 0
     }
   },
   "hooks" : [
