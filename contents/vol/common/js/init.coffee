@@ -11,14 +11,14 @@ pageActiveEvent = (anchorLink, index) ->
 		obj.find('img').addClass(delay).css({'display':'block'}).attr('transition-style', wipeDir)
 
 		$('body').removeClass('is_blur')
-		$('.back-to-top').css({display:'flex'})
+		# $('.back-to-top').css({display:'flex'})
 
 
 indexLeaveEvent = (index, nextIndex, direction) ->
 	leavingSection = this
 	$(this).removeClass('is-done')
 
-	console.log nextIndex
+	# console.log nextIndex
 
 
 	if nextIndex >1
