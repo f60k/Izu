@@ -175,7 +175,7 @@
     .grid-2col {
       // .contents
       // {
-      // 	width: 
+      //  width: 
       // }
 
       .img-1 {
@@ -325,6 +325,11 @@
       grid-template-rows: auto;
       grid-column-gap: 5vw;
 
+      .lead {
+        margin-top: .2em;
+        margin-bottom: .2em;
+      }
+
       .contents {
         grid-column: 1;
         grid-row: 1;
@@ -363,6 +368,10 @@
           align-self: start;
         }
       }
+    }
+
+    .info {
+      margin-top: 3vw;
     }
 
     .grid-2-2 {

@@ -519,8 +519,8 @@
       "oA" : 0,
       "oAP" : "\/common\/images\/categories\/nav\/sns.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -2349,7 +2349,7 @@
     },
     "\/contents\/vol\/horseriding\/images\/8.jpg" : {
       "ft" : 16384,
-      "iS" : 414034,
+      "iS" : 276162,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/horseriding\/images\/8.jpg",
@@ -4913,7 +4913,7 @@
       "oAP" : "\/images\/top\/items\/events.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4978,7 +4978,7 @@
       "oAP" : "\/images\/top\/items\/sns-station.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
