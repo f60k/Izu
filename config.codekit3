@@ -1138,6 +1138,14 @@
       "oAP" : "\/contents\/index-all.html",
       "oF" : 0
     },
+    "\/contents\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/contents\/index.html",
+      "oF" : 0
+    },
     "\/contents\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -2137,7 +2145,7 @@
     },
     "\/contents\/vol\/hinadecoration\/images\/7.jpg" : {
       "ft" : 16384,
-      "iS" : 443068,
+      "iS" : 2104652,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/hinadecoration\/images\/7.jpg",
