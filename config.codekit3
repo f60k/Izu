@@ -1130,12 +1130,12 @@
       "q" : 90,
       "rq" : 75
     },
-    "\/contents\/index.html" : {
+    "\/contents\/index-all.kit" : {
       "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+      "ft" : 2048,
+      "hM" : 1,
       "oA" : 0,
-      "oAP" : "\/contents\/index.html",
+      "oAP" : "\/contents\/index-all.html",
       "oF" : 0
     },
     "\/contents\/index.kit" : {
@@ -2137,7 +2137,7 @@
     },
     "\/contents\/vol\/hinadecoration\/images\/7.jpg" : {
       "ft" : 16384,
-      "iS" : 2104652,
+      "iS" : 443068,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/hinadecoration\/images\/7.jpg",
@@ -2150,26 +2150,13 @@
     },
     "\/contents\/vol\/hinadecoration\/images\/8.jpg" : {
       "ft" : 16384,
-      "iS" : 414034,
+      "iS" : 398917,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/contents\/vol\/hinadecoration\/images\/8.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/contents\/vol\/hinadecoration\/images\/9.jpg" : {
-      "ft" : 16384,
-      "iS" : 1218310,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/contents\/vol\/hinadecoration\/images\/9.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
