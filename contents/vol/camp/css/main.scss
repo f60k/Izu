@@ -108,18 +108,19 @@
 
 
 
-
-
-
-
-
   .article-close {
+
+    .grid-2-2
+    {
+      grid-column-gap: 4vw;
+    }
 
     .grid-2col {
       grid-column-gap: 3vw;
 
       .contents {
         width: 45vw;
+
       }
     }
   }
