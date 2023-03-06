@@ -52,41 +52,53 @@
 
 @media (min-width:968px) {
   .article-info {
+    position: relative;
+
+    h2.title
+    {
+      margin-top: .3em;
+      margin-bottom: .3em;
+    }
+    // overflow: hidden;
     .grid-2col {
-
-      // grid-column-gap: 0;
-
-      // margin-top: -4vw;
-      .contents {
-        width: 50vw;
+      // grid-template-columns: 4fr 3fr;
+      .contents
+      {
+        width: 54vw;
       }
-
       .img-set {
-        // margin-top: -2vw;
-        // margin-bottom: 0vw;
+        margin: 0;
+        margin-top: -5vw;
+        grid-row-gap: 1.2vw;
+        // width: auto;
 
         .img-1 {
+          margin-right: -3.6vw;
+          // margin-top: -1vw;
           width: 100%;
-          margin-right: -7.6vw;
         }
 
         .img-2 {
-          margin: 0;
-          margin-left: 7.6vw;
-          margin-top: 4vw;
-          width: 80%;
+          margin-top: 0;
+          width: 70%;
+          margin-left: 3.6vw;
         }
       }
     }
 
-    .info {
-      margin-top: -23.4vw;
-      width: 50vw;
+    .info
+    {
+      width: 54vw;
+      // margin-top: -23vw;
 
       .grid-2-2 {
+        // margin-top:
+        position: absolute;
+        left: 7.6vw;
+        top: 28vw;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 2vw;
+        grid-column-gap: 3vw;
         grid-template-rows: auto;
 
         >* {
@@ -101,6 +113,58 @@
     }
   }
 }
+
+// @media (min-width:968px) {
+//   .article-info {
+//     .grid-2col {
+
+//       // grid-column-gap: 0;
+
+//       // margin-top: -4vw;
+//       .contents {
+//         width: 50vw;
+//       }
+
+//       .img-set {
+//         // margin-top: -2vw;
+//         // margin-bottom: 0vw;
+
+//         .img-1 {
+//           width: 100%;
+//           margin-right: -7.6vw;
+//         }
+
+//         .img-2 {
+//           margin: 0;
+//           margin-left: 7.6vw;
+//           margin-top: 4vw;
+//           width: 80%;
+//         }
+//       }
+//     }
+
+//     .info {
+//       margin-top: -23.4vw;
+//       width: 50vw;
+
+//       .grid-2-2 {
+//         display: grid;
+//         grid-template-columns: 1fr 1fr;
+//         grid-column-gap: 2vw;
+//         grid-template-rows: auto;
+
+//         >* {
+//           align-self: end;
+//         }
+
+//         .g-map {
+//           margin-bottom: 0;
+//           padding-bottom: 0;
+//         }
+//       }
+//     }
+//   }
+// }
 
 
 .article-01 {
